@@ -1,0 +1,11 @@
+.env
+*.db
+*.log
+__pycache__/
+*.pyc
+.git/
+.gitignore
+*.md
+get_guild_id.py
+venv/
+.venv/

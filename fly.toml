@@ -1,0 +1,18 @@
+app = "polymarkexplorer-bot"
+primary_region = "cdg"
+
+[build]
+
+[env]
+  POLLING_INTERVAL = "6"
+  DATABASE_PATH = "/data/polymarket.db"
+  API_TIMEOUT = "15"
+
+[mounts]
+  source = "polymarket_data"
+  destination = "/data"
+
+[[vm]]
+  memory = "256mb"
+  cpu_kind = "shared"
+  cpus = 1
